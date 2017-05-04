@@ -17,5 +17,6 @@
     <% @users.each do |user| %>
       <%= link_to user.name, user %><br>
     <% end %>
+    <%= paginate @users %>
   </div>
 </div>
